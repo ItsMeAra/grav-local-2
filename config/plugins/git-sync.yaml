@@ -1,0 +1,30 @@
+enabled: true
+folders:
+  - pages
+  - config
+  - data
+  - plugins
+  - themes
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+repository: 'https://github.com/ItsMeAra/grav-local-2.git'
+user: itsmeara
+webhook: /_git-sync-d647f9fdf5a3
+webhook_enabled: '0'
+webhook_secret: 0ac62cf07be17e3d8004803c15e21e06d540fd5e6741b701
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  message: '(Grav GitSync) Automatic Commit'
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false
+password: gitsync-def5020097005c74bf1849bf2b99f472aaceec0c0edcb7f10cd7f96fc911d2b739e0f99d8b9b09e63e1f0b76341f5e36352519d7e8cc19e1847ad56bb7c73ebff06dadf014a5e71a98153725389b02bf4381abc350aed850ef38dde842f5
